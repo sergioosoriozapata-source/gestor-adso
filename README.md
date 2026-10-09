@@ -1,3 +1,20 @@
+
+PHP 8.2.12 (cli) (built: Oct 24 2023 21:15:15) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.2.12, Copyright (c) Zend Technologies
+
+PS C:\Users\yanet\gestor-adso> composer -V
+Composer version 2.10.3 2026-08-27 13:34:23
+PHP version 8.2.12 (C:\xampp\php\php.exe)
+Run the "diagnose" command to get more detailed diagnostics output.
+PS C:\Users\yanet\gestor-adso>
+
+PS C:\Users\yanet\gestor-adso> php artisan --version
+Laravel Framework 12.69.3
+
+PS C:\Users\yanet\gestor-adso> git --version
+git version 2.54.0.windows.1
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
