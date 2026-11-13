@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -19,7 +20,9 @@ class ExampleTest extends TestCase
 
     public function test_aprendices_index_returns_successful(): void
     {
-        $response = $this->get('/aprendices');
+        $user = User::factory()->create();
+
+        $response = $this->actingAs($user)->get('/aprendices');
 
         $response->assertStatus(200);
     }
